@@ -1,7 +1,5 @@
 <?php
 
-use exe1\Ingrediente;
-
 class PricedEntree extends Entree 
 {
     public function __construct($nome, $ingredientes) 
@@ -16,7 +14,6 @@ class PricedEntree extends Entree
             }
         }
     }
-
     public function getCusto() 
     {
         $custo = 0;

@@ -1,7 +1,5 @@
 <?php
 
-use exe1\Ingrediente;
-
 class Entree 
 {
     private $nome;
@@ -11,7 +9,6 @@ class Entree
     {
         return $this->nome;
     }
-
     public function __construct($nome, $ingredientes) 
     {
         //Se não for um array, uma exceção é gerada
